@@ -235,7 +235,8 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   font-size: 19px;
   color: #00013c;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 20px;
+  line-height: 1.4;
   padding: 15px;
 }
 
@@ -245,6 +246,7 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   top: -30px;
   z-index: 99999999;
   width: 110px !important;
+  border-radius: 10px;
 }
 
 .owl-prev {
