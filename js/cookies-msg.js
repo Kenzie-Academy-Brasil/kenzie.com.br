@@ -19,12 +19,10 @@ notAccept.addEventListener('click', doNotAcceptCookies, false)
 
 const validateSession = localStorage => {
 
-    if (localStorage === 'denied' || localStorage === null) {
+    if (localStorage !== 'accept') {
         cookies.style.display = 'flex';
     }
 }
-
-
 
 
 setTimeout(() => { validateSession(localStorage.getItem('cookies')) }, 3000)
