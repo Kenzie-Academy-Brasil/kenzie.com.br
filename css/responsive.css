@@ -778,6 +778,7 @@
   }
   .imgizer {
     width: 80px !important;
+    border-radius: 10px;
   }
   .owl-next img,
   .owl-prev img {
